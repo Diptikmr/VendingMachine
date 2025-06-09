@@ -21,7 +21,7 @@ public class VendingMachine
     private string lastMessage = "INSERT COIN";
     private List<string> coinReturn = new();
 
-    public void Start()
+    public void AcceptCoin()
     {
         while (true)
         {
@@ -112,6 +112,6 @@ public class Program
     static void Main(string[] args)
     {
         VendingMachine machine = new VendingMachine();
-        machine.Start();
+        machine.AcceptCoin();
     }
 }
