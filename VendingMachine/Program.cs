@@ -25,7 +25,7 @@ public class VendingMachine
     {
         while (true)
         {
-           
+
             Console.WriteLine($"Display: {GetDisplay()}");
 
             Console.WriteLine("Available Products:");
